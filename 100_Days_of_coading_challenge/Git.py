@@ -1,4 +1,10 @@
-# git config --global user.name "Sam Smith"
+# git config --global user.name "ThapasyaN"
+# git config --global user.email <nadigottiThapasya@gmail.com>
+# git init
+# git add *
+# git commit -m "name"
+# git remote add origin https://github.com/ThapasyaN/pythonProject.git
+# git push origin master
 
 
 # STATUS: to know the no. of files updated by others to your program.
@@ -35,4 +41,3 @@
 
 # to merge to branches i.e the merge a branch into our active branch -
 # git merge <name_of_the_branch_you_want_to_merge>
-# ohfikdf
