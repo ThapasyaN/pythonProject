@@ -1,0 +1,7 @@
+print("welcome to the 5 star THE KING hotel")
+total_bill = int(input("what is the total amount of the bill?\n"))
+tip_percentage = int(input("how much tip do you would like to  give? 12, 14, 16, 18\n"))
+shared = int(input("with how many members is the bill split?\n"))
+tip = round(total_bill * tip_percentage / 100,2)
+bill = round((total_bill + tip_percentage) / shared,2)
+print("each person should pay $ " + str(bill))
