@@ -35,3 +35,4 @@
 
 # to merge to branches i.e the merge a branch into our active branch -
 # git merge <name_of_the_branch_you_want_to_merge>
+# ohfikdf
