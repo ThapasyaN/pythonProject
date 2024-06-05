@@ -5,10 +5,10 @@ target = int(input())
 #     sum += n
 # print(sum)
 
-                            # or
+# or
 
 sum = 0
-for n  in range(0, target + 1):
+for n in range(0, target + 1):
     if n % 2 == 0:
-     sum += n
+        sum += n
 print(sum)

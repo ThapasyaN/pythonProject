@@ -27,6 +27,7 @@ def caesar(start_text, shift_amount, cipher_direction):
 
 # TODO-1: Import and print the logo from art.py when the program starts.
 from secret_code_art import logo
+
 print(logo)
 
 # D: TODO-4: Can you figure out a way to ask the user if they want to restart the cipher program?
@@ -48,15 +49,11 @@ while not should_end:
     # C: TODO-2: Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
     caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
 
-# D: TODO-4: Can you figure out a way to ask the user if they want to restart the cipher program?
-#    e.g. Type 'yes' if you want to go again. Otherwise type 'no'.
-#    If they type 'yes' then ask them for the direction/text/shift again and call the caesar() function again?
-# Hint: Try creating a while loop that continues to execute the program if the user types 'yes'.
+    # D: TODO-4: Can you figure out a way to ask the user if they want to restart the cipher program?
+    #    e.g. Type 'yes' if you want to go again. Otherwise type 'no'.
+    #    If they type 'yes' then ask them for the direction/text/shift again and call the caesar() function again?
+    # Hint: Try creating a while loop that continues to execute the program if the user types 'yes'.
     restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
     if restart == "no":
         should_end = True
         print("Goodbye")
-
-
-
-
