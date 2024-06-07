@@ -1,4 +1,4 @@
-# CLASS INHERITANCE- the process of inheriting the behaviour and appearance from an existing class.
+# CLASS INHERITANCE- the process of inheriting the behavior and appearance from an existing class.
 
 # to inherit the class
 class Animal:
