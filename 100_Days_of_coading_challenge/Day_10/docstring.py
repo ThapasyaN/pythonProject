@@ -1,8 +1,11 @@
-# Docstring: it converts the user defined functions into a user defined and then it gets populated in the decstring
+# Docstring: it converts the user defined functions into a computer defined and then it gets populated
+# in the decstring
 # or it creates definitions to the user defined functions.
 # or Python docstrings are the string literals that appear
 # right after the definition of a function, method, class, or module. Example:
 len(name)
+
+
 # >>
 # builtins
 # [def len(__obj: Sized) -> int
