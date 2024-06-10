@@ -18,7 +18,6 @@ class Ball(Turtle):
 
     def bounce_y(self):
         self.y_move *= -1
-    #     self.y_move *= -1 this statement reverses the signs i.e if it is positive it gets negative and if its negative it gets positive.
 
     def bounce_x(self):
         self.x_move *= -1
@@ -28,4 +27,5 @@ class Ball(Turtle):
         self.goto(0, 0)
         self.move_speed = 0.1
         self.bounce_x()
+
 
